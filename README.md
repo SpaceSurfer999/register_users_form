@@ -4,19 +4,11 @@
 В разделе, где отображается таблица с пользователями установлен вывод -  10 пользователей на страницу.
 
 Схема проекта(Project scheme):
-config.php  
-      |
-boot.php
-      |
-start.php(main page)  
-      |                    |
-|register new user|  |update user data or delete user| 
-      |                                |
-register.php                 updateprofile.php  
-      |                        |               |
-signup.php            |update user data|   |delete user|
-                               |               |
-					              update.php          delete.php
+
+|register new user| = config.php -> boot.php -> start.php(main page) -> register.php -> signup.php
+|update user data or delete user| = config.php -> boot.php -> start.php(main page) -> updateprofile.php -> update.php
+|delete user| = config.php -> boot.php -> start.php(main page) -> updateprofile.php -> delete.php
+
 						
 
 
