@@ -61,7 +61,7 @@ if($_SERVER["REQUEST_METHOD"] === "GET" && isset($_GET["id"]))
     }
 
     else {
-        echo "<div>Пользователь не найден</div>";
+        echo "<div>User not found</div>";
     }
 }
 // check initialisation and if Ok , create SQL query and update data
