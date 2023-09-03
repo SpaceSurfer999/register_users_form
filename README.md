@@ -6,7 +6,9 @@
 Схема проекта(Project scheme):
 
 |register new user| = config.php -> boot.php -> start.php(main page) -> register.php -> signup.php
+
 |update user data or delete user| = config.php -> boot.php -> start.php(main page) -> updateprofile.php -> update.php
+
 |delete user| = config.php -> boot.php -> start.php(main page) -> updateprofile.php -> delete.php
 
 						
