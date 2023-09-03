@@ -8,12 +8,12 @@ require_once 'include/boot.php';
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Форма регистрации</title>
+    <title>Register form</title>
     <link rel="stylesheet" href="style/css/main.css">
 </head>
 <body>
 
-<!--Form for registartion new user in data base-->
+<!--Form for registration new user in data base-->
 <form action="signup.php" method="post">
     <p><i><label>Fields marked with an * are required!</label></i></p>
 
